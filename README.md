@@ -15,3 +15,9 @@ npm run build
 ```
 npm install vue-router
 ```
+4.  Создание модели, миграции для таблицы, фабрики для наполнения данными и api контроллера для сущности `Product`. Implementing CRUD Operations in the API and test with Postman.
+```
+php artisan make:model Product -mf
+php artisan migrate --seed
+php artisan make:controller ProductController --api
+```

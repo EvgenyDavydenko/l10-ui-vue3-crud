@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "af5c1bcc-f59e-4188-9d70-ad21704b6063",
+		"name": "l10-ui-vue3-crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15182889"
+	},
+	"item": [
+		{
+			"name": "get all products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get all products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8080"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.16"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 10 Apr 2024 15:10:39 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"dolorem voluptatem eligendi\",\n        \"description\": \"Sunt aperiam quibusdam eos. Qui qui aut dignissimos sapiente. Dolores libero et et adipisci molestias animi tenetur. Est alias ut et est quisquam iure.\",\n        \"price\": 397.25,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"vel in atque\",\n        \"description\": \"Tempore consequatur rerum sit et aliquam qui non. Ut eos incidunt eos. Et tenetur in facilis quae ipsa nulla vitae. Iure nostrum aspernatur mollitia aut eveniet debitis.\",\n        \"price\": 908.99,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"distinctio ipsa rerum\",\n        \"description\": \"Blanditiis totam debitis corporis ab cumque. Unde laboriosam qui est. Aut quod sed omnis modi.\",\n        \"price\": 474.63,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"ab neque quia\",\n        \"description\": \"Dignissimos totam dolores dicta. Corporis dolore quaerat modi quia impedit repellat earum. Voluptate sed enim perspiciatis doloribus iste quo quisquam autem. Animi ratione fuga velit quibusdam veritatis sapiente.\",\n        \"price\": 467.25,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 5,\n        \"name\": \"sint impedit odio\",\n        \"description\": \"Id soluta expedita consequatur enim expedita repellendus. Qui voluptatem nam nulla molestiae expedita. Facilis incidunt aut exercitationem rem nisi debitis.\",\n        \"price\": 899.51,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"voluptate quaerat placeat\",\n        \"description\": \"Est veniam rerum dignissimos aut a iure sint et. Ipsa velit quia quasi est quia qui. Praesentium ipsum facere velit occaecati omnis et officiis.\",\n        \"price\": 205.82,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 7,\n        \"name\": \"laborum voluptatum illo\",\n        \"description\": \"Ex id rem facilis et voluptatem aspernatur consequuntur. Dignissimos dolores incidunt dolore quia qui exercitationem. Dignissimos officia nostrum ullam porro maiores incidunt voluptatum similique. Sit voluptate rerum necessitatibus quibusdam et. Adipisci illum aspernatur nemo.\",\n        \"price\": 141.86,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 8,\n        \"name\": \"repellat enim rerum\",\n        \"description\": \"Ipsum voluptatibus inventore sunt sint ab. Illum dolorem autem pariatur voluptatem sed. Reiciendis temporibus non qui rerum aut voluptatem. Et quo nemo quis molestiae expedita magni.\",\n        \"price\": 129.52,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 9,\n        \"name\": \"voluptas omnis quam\",\n        \"description\": \"Nobis eos et dolor esse ex. Exercitationem facere illum temporibus ut consectetur. Ut facilis voluptatum vero a sed. Possimus commodi optio enim.\",\n        \"price\": 989.29,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T14:30:01.000000Z\"\n    },\n    {\n        \"id\": 10,\n        \"name\": \"мороженное сливочное\",\n        \"description\": \"сливочное мороженное из цельного молока\",\n        \"price\": 75.3,\n        \"created_at\": \"2024-04-10T14:30:01.000000Z\",\n        \"updated_at\": \"2024-04-10T15:00:17.000000Z\"\n    },\n    {\n        \"id\": 11,\n        \"name\": \"булочка с изюмом\",\n        \"description\": \"булочка с изюмом мука первый сорт\",\n        \"price\": 50.8,\n        \"created_at\": \"2024-04-10T14:55:22.000000Z\",\n        \"updated_at\": \"2024-04-10T14:55:22.000000Z\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "store product",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"булочка с изюмом\",\n    \"description\": \"булочка с изюмом мука первый сорт\",\n    \"price\": \"50.80\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get one product",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/products/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update product",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"мороженное сливочное\",\n    \"description\": \"сливочное мороженное из цельного молока\",\n    \"price\": \"75.30\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
