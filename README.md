@@ -11,3 +11,7 @@ php artisan ui vue --auth
 npm install
 npm run build
 ```
+3. Install the `vue-router` package and create simple SPA
+```
+npm install vue-router
+```

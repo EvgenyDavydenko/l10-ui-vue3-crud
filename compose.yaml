@@ -6,7 +6,7 @@ services:
         restart: always
         ports:
             - 8080:8000
-            - 8050:5173 #package.json "scripts": {"dev": "vite --host"}
+            - 5173:5173 #package.json "scripts": {"dev": "vite --host"}
         links:
             - database
         volumes:
@@ -30,7 +30,7 @@ services:
         links:
             - database
         ports:
-            - 8082:80
+            - 8084:80
         environment:
             PMA_HOST: database
             PMA_USER: phpmyadmin
