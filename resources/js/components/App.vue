@@ -13,6 +13,11 @@
                             О нас
                         </router-link>
                     </li>
+                    <li>
+                        <router-link to="/products" class="nav-link text-white" style="text-decoration: none; color: white;">
+                            Продукты
+                        </router-link>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -21,3 +21,4 @@ php artisan make:model Product -mf
 php artisan migrate --seed
 php artisan make:controller ProductController --api
 ```
+5.  Implementing CRUD Operations in SPA Vue 3.
